@@ -37,7 +37,7 @@ jobs:
           tags: |
             type=sha
           images: |
-            hhyo/archery-base
+            bernylinville/archery-base
 
       - name: Build and push Docker Base images
         uses: docker/build-push-action@v2
