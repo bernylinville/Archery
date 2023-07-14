@@ -89,3 +89,4 @@ RUN cd /opt \
 
 ENV LANG zh_CN.UTF-8
 ENV LC_ALL zh_CN.UTF-8
+
