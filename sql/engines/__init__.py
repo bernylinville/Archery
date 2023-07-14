@@ -224,41 +224,41 @@ def get_engine(instance=None):  # pragma: no cover
         from .mysql import MysqlEngine
 
         return MysqlEngine(instance=instance)
-    elif instance.db_type == "mssql":
-        from .mssql import MssqlEngine
+    # elif instance.db_type == "mssql":
+    #     from .mssql import MssqlEngine
 
-        return MssqlEngine(instance=instance)
-    elif instance.db_type == "redis":
-        from .redis import RedisEngine
+    #     return MssqlEngine(instance=instance)
+    # elif instance.db_type == "redis":
+    #     from .redis import RedisEngine
 
-        return RedisEngine(instance=instance)
-    elif instance.db_type == "pgsql":
-        from .pgsql import PgSQLEngine
+    #     return RedisEngine(instance=instance)
+    # elif instance.db_type == "pgsql":
+    #     from .pgsql import PgSQLEngine
 
-        return PgSQLEngine(instance=instance)
-    elif instance.db_type == "oracle":
-        from .oracle import OracleEngine
+    #     return PgSQLEngine(instance=instance)
+    # elif instance.db_type == "oracle":
+    #     from .oracle import OracleEngine
 
-        return OracleEngine(instance=instance)
+    #     return OracleEngine(instance=instance)
     elif instance.db_type == "mongo":
         from .mongo import MongoEngine
 
         return MongoEngine(instance=instance)
-    elif instance.db_type == "goinception":
-        from .goinception import GoInceptionEngine
+    # elif instance.db_type == "goinception":
+    #     from .goinception import GoInceptionEngine
 
-        return GoInceptionEngine(instance=instance)
-    elif instance.db_type == "phoenix":
-        from .phoenix import PhoenixEngine
+    #     return GoInceptionEngine(instance=instance)
+    # elif instance.db_type == "phoenix":
+    #     from .phoenix import PhoenixEngine
 
-        return PhoenixEngine(instance=instance)
+    #     return PhoenixEngine(instance=instance)
 
-    elif instance.db_type == "odps":
-        from .odps import ODPSEngine
+    # elif instance.db_type == "odps":
+    #     from .odps import ODPSEngine
 
-        return ODPSEngine(instance=instance)
+    #     return ODPSEngine(instance=instance)
 
-    elif instance.db_type == "clickhouse":
-        from .clickhouse import ClickHouseEngine
+    # elif instance.db_type == "clickhouse":
+    #     from .clickhouse import ClickHouseEngine
 
-        return ClickHouseEngine(instance=instance)
+    #     return ClickHouseEngine(instance=instance)
