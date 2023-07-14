@@ -41,7 +41,7 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            hhyo/archery
+            bernylinville/archery
             ghcr.io/${{ github.repository }}
 
       - name: Build and push Docker images
