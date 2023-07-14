@@ -118,15 +118,15 @@ class InstanceTag(models.Model):
 
 DB_TYPE_CHOICES = (
     ("mysql", "MySQL"),
-    ("mssql", "MsSQL"),
-    ("redis", "Redis"),
-    ("pgsql", "PgSQL"),
-    ("oracle", "Oracle"),
+    # ("mssql", "MsSQL"),
+    # ("redis", "Redis"),
+    # ("pgsql", "PgSQL"),
+    # ("oracle", "Oracle"),
     ("mongo", "Mongo"),
-    ("phoenix", "Phoenix"),
-    ("odps", "ODPS"),
-    ("clickhouse", "ClickHouse"),
-    ("goinception", "goInception"),
+    # ("phoenix", "Phoenix"),
+    # ("odps", "ODPS"),
+    # ("clickhouse", "ClickHouse"),
+    # ("goinception", "goInception"),
 )
 
 
