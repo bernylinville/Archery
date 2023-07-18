@@ -3,12 +3,12 @@ name: Publish Docker image
 on:
   push:
     branches:
-      - 'master'
+      - 'coshine'
     tags:
       - 'v*'
   pull_request:
     branches:
-      - 'master'
+      - 'coshine'
 
 jobs:
   push_to_registries:
