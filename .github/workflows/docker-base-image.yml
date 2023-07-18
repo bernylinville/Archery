@@ -3,12 +3,12 @@ name: Publish Docker Base image
 on:
   push:
     branches:
-      - 'master'
+      - 'coshine'
     paths:
       - 'src/docker/Dockerfile-base'
   pull_request:
     branches:
-      - 'master'
+      - 'coshine'
     paths:
       - 'src/docker/Dockerfile-base'
 
